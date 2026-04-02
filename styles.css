@@ -192,3 +192,31 @@ h1, h2, h3, h4 {
     height: auto;
   }
 }
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.view-more:hover {
+  color: black;
+}
+
+.review-text {
+  font-style: italic;
+  line-height: 1.6;
+  color: #444;
+}
+
+.review-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
