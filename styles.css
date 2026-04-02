@@ -111,9 +111,10 @@ a {
   box-shadow: 0 0 8px rgba(212, 176, 95, 0.6);
 }
 
-.nav a:hover::after,
-.nav a.active::after {
+.nav a:hover::after {
   width: 100%;
+  background: linear-gradient(90deg, #b78d35, #e4c16d);
+  box-shadow: 0 0 6px rgba(212, 176, 95, 0.4);
 }
 
 /* HERO */
