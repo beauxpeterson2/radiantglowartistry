@@ -285,13 +285,34 @@ a {
 }
 
 .about-images img {
-  width: 150px;
-  height: 190px;
+  width: 140px;
+  height: 180px;
   object-fit: cover;
   border-radius: 14px;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
 
+.about-caption {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .about-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-images img {
+    width: 70%;
+    max-width: 200px;
+    height: auto;
+  }
+  
 .about-caption {
   margin-top: 15px;
   font-style: italic;
