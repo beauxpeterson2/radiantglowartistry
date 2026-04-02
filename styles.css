@@ -59,12 +59,10 @@ a {
 }
 
 .logo {
-  width: 240px;
+  width: 180px;
   height: auto;
   display: block;
-  filter:
-    drop-shadow(0 0 8px rgba(212, 176, 95, 0.18))
-    drop-shadow(0 0 18px rgba(212, 176, 95, 0.12));
+
 }
 
 .brand-tagline {
