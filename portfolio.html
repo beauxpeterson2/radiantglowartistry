@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Radiant Glow Artistry | Portfolio</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Radiant Glow Artistry</title>
 
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
+
     <div class="brand">
       <h1>Radiant Glow Artistry</h1>
       <p>Luxury Makeup Artistry</p>
@@ -26,35 +25,70 @@
       <a href="about.html">About</a>
       <a href="portfolio.html" class="active">Portfolio</a>
       <a href="pricing.html">Pricing</a>
+      <a href="testimonials.html">Testimonials</a>
       <a href="contact.html">Contact</a>
     </nav>
+
   </div>
 </header>
 
 <section class="page-hero">
   <div class="container section-title">
     <h2>Client Transformations</h2>
-    <p>Real results. Real glow.</p>
+    <p>Before & after results with real client reviews</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container">
+  <div class="container portfolio-grid">
 
-    <div class="portfolio-grid">
+    <!-- CLIENT 1 -->
+    <div class="portfolio-card">
+      <h4>Client Transformation</h4>
 
-      <!-- CLIENT 1 -->
-      <div class="portfolio-pair">
-        <img src="client1before.jpg" alt="Before makeup">
-        <img src="client1after.jpg" alt="After makeup">
+      <div class="portfolio-images">
+        <div>
+          <p class="label">Before</p>
+          <img src="client1before.jpg">
+        </div>
+
+        <div>
+          <p class="label">After</p>
+          <img src="client1after.jpg">
+        </div>
       </div>
 
-      <!-- CLIENT 2 -->
-      <div class="portfolio-pair">
-        <img src="client2before.jpg" alt="Before makeup">
-        <img src="client2after.jpg" alt="After makeup">
+      <div class="review">
+        <p>
+          “I had my hair and makeup done by Beaux for our babies’ birthday celebration. 
+          She was responsive, affordable, and truly one of the sweetest people. 
+          She took her time and went the extra mile.”
+        </p>
+      </div>
+    </div>
+
+    <!-- CLIENT 2 -->
+    <div class="portfolio-card">
+      <h4>Client Transformation</h4>
+
+      <div class="portfolio-images">
+        <div>
+          <p class="label">Before</p>
+          <img src="client2before.jpg">
+        </div>
+
+        <div>
+          <p class="label">After</p>
+          <img src="client2after.jpg">
+        </div>
       </div>
 
+      <div class="review">
+        <p>
+          “I am a repeat customer and always pleased with the look. 
+          Her skills with complexion matching and contouring are phenomenal.”
+        </p>
+      </div>
     </div>
 
   </div>
