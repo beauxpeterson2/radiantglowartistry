@@ -69,6 +69,13 @@ a {
 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
+.logo:hover {
+  transform: translateY(-2px);
+
+  filter:
+    drop-shadow(0 0 10px rgba(212, 176, 95, 0.6))
+    drop-shadow(0 0 20px rgba(212, 176, 95, 0.4));
+}
 .brand-tagline {
   font-size: 11px;
   letter-spacing: 0.35em;
