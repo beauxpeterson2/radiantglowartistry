@@ -93,7 +93,7 @@ a {
 }
 
 .nav a.active {
-  color: #b78d35; /* gold tone */
+  color: #b78d35;
   font-weight: 600;
 }
 
@@ -104,10 +104,11 @@ a {
   box-shadow: 0 0 8px rgba(212, 176, 95, 0.6);
 }
 
-.nav a:hover::after {
+.nav a:hover::after,
+.nav a.active::after {
   width: 100%;
   background: linear-gradient(90deg, #b78d35, #e4c16d);
-  box-shadow: 0 0 6px rgba(212, 176, 95, 0.4);
+  box-shadow: 0 0 8px rgba(212, 176, 95, 0.6);
 }
 
 /* HERO */
@@ -298,7 +299,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
 @media (max-width: 600px) {
   .about-images {
     flex-direction: column;
@@ -321,14 +321,16 @@ a {
 }
 
 @media (max-width: 600px) {
+  .portfolio-images,
   .about-images {
     flex-direction: column;
     align-items: center;
   }
 
+  .portfolio-images img,
   .about-images img {
-    width: 75%;
-    max-width: 220px;
+    width: 70%;
+    max-width: 200px;
     height: auto;
   }
 }
@@ -405,4 +407,32 @@ a {
   .hero h2 {
     font-size: 32px;
   }
+}
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  color: #b78d35;
+}
+  .review-text {
+  font-style: italic;
+  line-height: 1.6;
+  color: #444;
+}
+
+.review-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
